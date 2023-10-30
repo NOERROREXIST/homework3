@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="CSTest:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/CSTest_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="CSTest" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/../../MySQL/Connector J 8.0/mysql-connector-j-8.0.31.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="CSTest/web/Web" />
+    </root>
+  </artifact>
+</component>
